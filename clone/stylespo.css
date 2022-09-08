@@ -34,14 +34,39 @@ nav ul li{
 }
 .container{
     min-height: 75vh;
-    
+    align-items: center;
     background-color: rgb(35, 34, 34);
-    color: white;
+    color: black;
     display: flex;
     width: 50%;
     margin: 30px auto;
     border-radius: 12px;
     padding: 12px;
+}
+.songitemcon{
+    display: flex;
+    flex-direction:row;
+    /* margin: 50px 50px 0 50px; */
+}
+.card {
+    align-items: center;
+    margin: 20px;
+    
+}
+.card-img-top{
+    height: 200px;
+    
+     
+
+} 
+
+i {
+    cursor: pointer;
+}
+.songitem span{
+    font-size: 0.7rem;
+    /* display: flex;
+    flex-direction: column; */
 }
 .bottom{
     position:sticky;
@@ -63,9 +88,11 @@ nav ul li{
 }
 .icons{
     cursor: pointer;
+    color: white;
 }
 .fa-solid{
     padding: 10px;
+    
 }
 .songinfo{
     
@@ -80,6 +107,7 @@ nav ul li{
 }
 #gif {
     opacity: 0;
-    
+    width: 50px;
+    height: 45px;
     transition: opacity 0.4ms ease-in-out ;
 }
